@@ -1,0 +1,25 @@
+
+<!--This is all being dropped into the body handlebars in layout.hbs-->
+
+<ul>
+
+	{{#each cards}}
+	<li>
+
+		<span style="color: {{this.color}}">{{this.value}}{{{this.suit}}}</span>
+
+	</li>
+	{{/each}}
+
+
+</ul>
+
+<form method="GET" action="/hand">
+
+
+	Give me <input type="text" name="cards"> cards.
+	<button type="submit">Deal!</button>
+
+</form>
+
+

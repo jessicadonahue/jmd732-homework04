@@ -1,0 +1,24 @@
+{
+  "name": "jmd732-homework04",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe and Scrabble",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework04.git"
+  },
+  "author": "Jessica Donahue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework04/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework04#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "hbs": "^4.0.1"
+  }
+}

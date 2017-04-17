@@ -1,0 +1,30 @@
+<h3>Sightings</h3>
+
+<ul>
+
+	{{#each birds}}
+	<li>
+
+		 <span style="color: yellow">{{this.num}}</span> x {{this.name}}
+
+	</li>
+	{{/each}}
+
+</ul>
+
+<!--{{birdName}} -->
+
+<form method="POST" action="/birds"> 
+
+	<!-- make a GET request to / when 
+	submit button is pushed -->
+
+	<input type="text" name="name">
+	<br>
+	<button type="submit">Add Another Bird</button>
+
+</form>
+
+
+
+<a class= "smallLink" href="/settings">(My Settings)</a>

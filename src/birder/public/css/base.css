@@ -1,0 +1,79 @@
+img {
+
+	border-radius: 50%;
+}
+
+html, body {
+
+	height: 100%;
+}
+body {
+	background-color: #a4badd;
+	color: green;
+	text-align: center;
+	font-family: "Cooper Black", Times, serif;
+	padding: 0;
+	margin: 0;
+}
+
+#content {
+
+	padding: 25px 100px 25px 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height:100%;
+	background-color:black;
+
+}
+
+
+
+
+button {
+
+	margin: 10px;
+	font-size: 25px;	
+	background-color: green;
+	padding: 5px;
+}
+
+input {
+
+	width: 325px;
+	height:25px;
+}
+
+h1 {
+
+	font-size: 50px;
+}
+
+h3 {
+
+	font-size: 30px;
+}
+
+h5 {
+	color:white;
+	font-size: 15px;
+}
+
+a:link, a:visited {
+
+	color: blue;
+}
+
+li {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	margin:10px;
+	font-family: "Ariel", Times, serif;
+}
+
+ul {
+
+	margin-bottom: 50px;
+}
+
